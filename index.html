@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>WebComponents Demo</title>
+
+  <style>
+    body {
+        color: black;
+    }
+  </style>
+  <script src="src/blocking.js"></script>
+  <script type="module" src="./src/index.js"></script>
+  <script>
+    console.log("After module")
+  </script>
+</head>
+<body>
+  <h1>Urwaldrouten</h1>
+  <parent-component></parent-component>
+  <div id="main"></div>
+  <script>
+    console.log("Am Ende")
+  </script>
+</body>
+</html>
